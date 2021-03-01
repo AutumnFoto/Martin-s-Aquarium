@@ -1,4 +1,4 @@
-const fishCollection = [
+export const fishCollection = [
   {
     saltWater: true,
     harvestLocation: "Pacific Ocean",
@@ -51,7 +51,7 @@ const fishCollection = [
     name: "Sabre",
     species: "Swordfish",
     inches: 117.6,
-    image: "Swordfish2.jpg",
+    image: "Swordfish2.jpg", 
   },
   {
     saltWater: false,
@@ -114,7 +114,7 @@ const fishCollection = [
     name: "Dorothy",
     species: "Goldfish",
     inches: 3,
-    img: "gold-fish2.jpg",
+    image: "gold-fish2.jpg",
   },
   {
     saltWater: false,
@@ -255,6 +255,10 @@ const fishCollection = [
   },
 ];
 
+
 export const getFish = () => {
-  return fishCollection;
-};
+	//do some math
+	//sort out the fish
+	//and then return
+	return fishCollection;
+}
